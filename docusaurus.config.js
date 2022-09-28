@@ -99,6 +99,10 @@ const config = {
                 href: "https://www.chiefdelphi.com/",
               },
               {
+                label: "FRC Discord",
+                href: "https://discord.gg/frc",
+              },
+              {
                 label: "Reddit",
                 href: "https://reddit.com/r/frc/",
               },

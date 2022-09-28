@@ -39,7 +39,7 @@ function Home() {
               )}
               to={useBaseUrl("/docs/")}
             >
-              Documentation
+              Team Documentation
             </Link>
             <Link
               to="/blog/"
@@ -48,7 +48,7 @@ function Home() {
                 styles.getStarted
               )}
             >
-              Read Our Blog
+              Team Newsletter
             </Link>
           </div>
         </div>
