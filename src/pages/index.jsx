@@ -33,14 +33,14 @@ function Home() {
         <meta property="og:type" content="website"/>
         <meta property="og:title" content="FRC Team 5590 - The Alumiboti"/>
         <meta property="og:description" content="Empowering the next generation of engineers, artists, and creative geniuses through FIRST robotics"/>
-        <meta property="og:image" content="" />
+        <meta property="og:image" content="https://alumiboti5590.com/img/social-image.jpg" />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="alumiboti5590.com" />
         <meta property="twitter:url" content="https://alumiboti5590.com/" />
         <meta name="twitter:title" content="FRC Team 5590 - The Alumiboti" />
         <meta name="twitter:description" content="Empowering the next generation of engineers, artists, and creative geniuses through FIRST robotics" />
-        <meta name="twitter:image" content="" />
+        <meta name="twitter:image" content="https://alumiboti5590.com/img/social-image.jpg" />
       </Head>
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className="container">
