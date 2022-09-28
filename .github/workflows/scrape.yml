@@ -1,9 +1,9 @@
 name: Scrape to Algolia
 
 on:
+  workflow_dispatch: {}
   schedule:
     - cron:  '* */12 * * *'
-
 
 jobs:
   deploy:
