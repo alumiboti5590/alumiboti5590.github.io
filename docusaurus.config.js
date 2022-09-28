@@ -33,7 +33,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl:
-            "https://github.com/sjcirobotics/team-documentation/tree/main/",
+            "https://github.com/alumiboti5590/alumiboti5590.github.io/tree/main/",
         },
         blog: false,
         theme: {
