@@ -42,7 +42,7 @@ function Home() {
               Team Documentation
             </Link>
             <Link
-              to="/blog/"
+              to="https://buttondown.email/alumiboti5590"
               className={clsx(
                 "button button--outline button--secondary button--lg",
                 styles.getStarted

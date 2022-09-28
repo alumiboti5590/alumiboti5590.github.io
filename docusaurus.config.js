@@ -12,7 +12,7 @@ const config = {
   url: "https://docs.alumiboti5590.com/",
   baseUrl: "/",
   onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
+  onBrokenMarkdownLinks: "throw",
   favicon: "img/favicon.ico",
   organizationName: "alumiboti",
   projectName: "team-documentation",
