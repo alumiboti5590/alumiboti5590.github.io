@@ -16,6 +16,7 @@ import {
   features,
   ExampleRobotCode
 } from "../constants.js";
+import Head from "@docusaurus/Head";
 
 function Home() {
   const context = useDocusaurusContext();
@@ -25,6 +26,22 @@ function Home() {
       title={`${siteConfig.title} · ${siteConfig.tagline}`}
       description={`${siteConfig.tagline}`}
     >
+      <Head>
+        <meta name="description" content="Empowering the next generation of engineers, artists, and creative geniuses through FIRST robotics"/>
+
+        <meta property="og:url" content="https://alumiboti5590.com/"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="FRC Team 5590 - The Alumiboti"/>
+        <meta property="og:description" content="Empowering the next generation of engineers, artists, and creative geniuses through FIRST robotics"/>
+        <meta property="og:image" content="" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="alumiboti5590.com" />
+        <meta property="twitter:url" content="https://alumiboti5590.com/" />
+        <meta name="twitter:title" content="FRC Team 5590 - The Alumiboti" />
+        <meta name="twitter:description" content="Empowering the next generation of engineers, artists, and creative geniuses through FIRST robotics" />
+        <meta name="twitter:image" content="" />
+      </Head>
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">
