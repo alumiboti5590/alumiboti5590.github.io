@@ -33,6 +33,15 @@ function Home() {
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>
             <Link
+              to="https://www.thebluealliance.com/team/5590"
+              className={clsx(
+                "button button--outline button--secondary button--lg",
+                styles.getStarted
+              )}
+            >
+              The Blue Alliance
+            </Link>
+            <Link
               className={clsx(
                 "button button--outline button--secondary button--lg",
                 styles.getStarted
