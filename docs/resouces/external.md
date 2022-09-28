@@ -1,9 +1,9 @@
 ---
-sidebar_position: 2
-sidebar_label: Useful Resources
+sidebar_position: 100  # high number to put it at the bottom
+sidebar_label: External Resources
 ---
 
-# Useful Resources
+# External Resources
 
 The following is a list of useful resources to quickly link around to. This page
 is designed more for accustomed individuals who know what they are looking for
