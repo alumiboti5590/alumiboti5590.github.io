@@ -46,6 +46,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      algolia: {
+        appId: "28ZWVRZKGY",
+        apiKey: "6ee2ca81fb321315a8b5b334757ef853",
+        indexName: "alumiboti_documentation",
+      },
       colorMode: {
         defaultMode: "light",
         disableSwitch: true,
