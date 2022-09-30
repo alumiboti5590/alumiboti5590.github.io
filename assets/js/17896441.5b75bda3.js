@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkteam_documentation=self.webpackChunkteam_documentation||[]).push([[918],{1769:(e,t,a)=>{a.d(t,{Z:()=>c});var n=a(5488),s=a(5162),u=a(2752),m=a(6222);const c={...u.Z,Instagram:m.mr,Tabs:n.Z,TabItem:s.Z,Tweet:m.tP,YouTube:m._F}}}]);
