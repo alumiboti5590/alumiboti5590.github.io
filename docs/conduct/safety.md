@@ -212,4 +212,6 @@ you think something is wrong
 
 Follow the battery spill cleanup video below or [read the PDF courtesy of Team 3637](./Battery-Acid-Spill-Cleanup-Procedure.pdf).
 
+```mdx-code-block
 <YouTube youTubeId="II4AovjYV54" />
+```
