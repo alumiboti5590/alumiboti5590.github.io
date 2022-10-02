@@ -13,6 +13,8 @@ In order to schedule events & tasks, organize into sub-teams, and communicate ef
 
 Once you let a mentor know that you are interested in joining the team, they will invite you to Basecamp so you can start communicating with the team. At the beginning, you may only see the [Team-wide Project](https://3.basecamp.com/5447650/projects/29576039), but as you show interest and work with sub-teams more, you will end up seeing more projects for different aspects of the team.
 
+We recommend you [download the mobile app for Android or iOS](https://basecamp.com/via) to make it easier to stay up-to-date.
+
 After [logging into Basecamp](https://launchpad.37signals.com/signin) for the first time, it can be a bit daunting. The following information is designed to help get you up to speed as quickly as possible, so you can start communicating and contributing to the team.
 
 ## Projects
