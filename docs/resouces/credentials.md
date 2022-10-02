@@ -1,6 +1,6 @@
 ---
-sidebar_position: 1
-sidebar_label: Team Credentials
+sidebar_position: 2
+sidebar_label: Team-wide Credentials
 ---
 
 # Team Credentials & Secret Management
