@@ -43,7 +43,7 @@ The following is an example of a program to find the area of a triangle in three
 <Tabs>
 <TabItem value="java" label="Java">
 
-```java title="Find the area of a triangle in Java"
+```java title="Find the area of a triangle in Java" showLineNumbers
 class TriangleUtility {
 
   public static void main(String args[]) {
@@ -69,7 +69,7 @@ class TriangleUtility {
 </TabItem>
 <TabItem value="py" label="Python">
 
-```py title="Find the area of a triangle in Python"
+```py title="Find the area of a triangle in Python" showLineNumbers
 # highlight-start:red
 BASE = 5
 HEIGHT = 12
@@ -89,7 +89,7 @@ print(answer)
 </TabItem>
 <TabItem value="js" label="JavaScript">
 
-```js title="Find the area of a triangle in JavaScript"
+```js title="Find the area of a triangle in JavaScript" showLineNumbers
 // highlight-start:red
 const BASE = 5;
 const HEIGHT = 12;
