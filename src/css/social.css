@@ -1,0 +1,31 @@
+.header-icon-link:hover {
+    opacity: 0.6;
+}
+
+.navbar__items .header-icon-link {
+    padding: .2em;
+}
+
+.header-github-link:before {
+    content: '';
+    width: 25px;
+    height: 25px;
+    display: flex;
+    background: url("/img/social/github.svg") no-repeat;
+}
+
+.header-twitter-link:before {
+    content: '';
+    width: 25px;
+    height: 25px;
+    display: flex;
+    background: url("/img/social/twitter.svg") no-repeat;
+}
+
+.header-instagram-link:before {
+    content: '';
+    width: 25px;
+    height: 25px;
+    display: flex;
+    background: url("/img/social/instagram.svg") no-repeat;
+}

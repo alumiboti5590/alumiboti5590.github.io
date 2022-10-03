@@ -40,7 +40,6 @@ Just like we humans can understand a few languages (English, Spanish, Mandarin, 
 
 The following is an example of a program to find the area of a triangle in three different languages; Java, Python, and JavaScript. They all do the same thing, just in different languages. You may be able to infer some functionality from reading the code, but **please do not stress by not being able to understand it!** Just as you have to learn a foreign language before being able to read it, the same is true of programming languages.
 
-```mdx-code-block
 <Tabs>
 <TabItem value="java" label="Java">
 
@@ -92,6 +91,5 @@ console.log(answer);
 
 </TabItem>
 </Tabs>
-```mdx-code-block
 
 Each example above contains some **variable definitions** of the `BASE` and `HEIGHT` of the triangle, a **function** called `area` that represents a reusable block of code, and a print statement that outputs the calculation so we can see it.

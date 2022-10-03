@@ -70,8 +70,21 @@ const config = {
             label: "Documentation",
           },
           {
+            href: "https://twitter.com/alumiboti5590",
+            className: "header-twitter-link header-icon-link",
+            "aria-label": "Twitter Account",
+            position: "right",
+          },
+          {
+            href: "https://www.instagram.com/alumiboti5590/",
+            className: "header-instagram-link header-icon-link",
+            "aria-label": "Instagram Account",
+            position: "right",
+          },
+          {
             href: "https://github.com/alumiboti5590",
-            label: "GitHub",
+            className: "header-github-link header-icon-link",
+            "aria-label": "GitHub Repository",
             position: "right",
           },
         ],
