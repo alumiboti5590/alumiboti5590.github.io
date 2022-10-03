@@ -2,7 +2,17 @@
 // Note: type annotations allow type checking and IDEs autocompletion
 
 const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+
+const customMagicComments = ["red", "blue", "green"].map(function (color) {
+  return {
+    className: `code-block-highlight code-highlight-${color}`,
+    line: `hightlight:${color}`,
+    block: {
+      start: `highlight-start:${color}`,
+      end: `highlight-end:${color}`,
+    },
+  };
+});
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -145,6 +155,14 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         additionalLanguages: ["java"],
+        magicComments: [
+          {
+            className: "theme-code-block-highlighted-line",
+            line: "highlight-next-line",
+            block: { start: "highlight-start", end: "highlight-end" },
+          },
+          ...customMagicComments,
+        ],
       },
     }),
   stylesheets: [

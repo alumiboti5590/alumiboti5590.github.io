@@ -47,16 +47,22 @@ The following is an example of a program to find the area of a triangle in three
 class TriangleUtility {
 
   public static void main(String args[]) {
+    // highlight-start:red
     int BASE = 5;
     int HEIGHT = 12;
+    // highlight-end:red
 
+    // highlight-start:green
     double answer = TriangleUtility.area(BASE, HEIGHT);
     System.out.println(answer);
+    // highlight-end:green
   }
 
+  // highlight-start:blue
   public static double area(int base, int height) {
     return .5 * base * height;
   }
+  // highlight-end:blue
 }
 ```
 
@@ -64,32 +70,44 @@ class TriangleUtility {
 <TabItem value="py" label="Python">
 
 ```py title="Find the area of a triangle in Python"
+# highlight-start:red
 BASE = 5
 HEIGHT = 12
+# highlight-end:red
 
+# highlight-start:blue
 def area(base, height):
   return .5 * base * height
+# highlight-end:blue
 
+# highlight-start:green
 answer = area(BASE, HEIGHT)
 print(answer)
+# highlight-end:green
 ```
 
 </TabItem>
 <TabItem value="js" label="JavaScript">
 
 ```js title="Find the area of a triangle in JavaScript"
+// highlight-start:red
 const BASE = 5;
 const HEIGHT = 12;
+// highlight-end:red
 
+// highlight-start:blue
 function area(base, height) {
   return .5 * base * height;
 }
+// highlight-end:blue
 
+// highlight-start:green
 const answer = area(base, height);
 console.log(answer);
+// highlight-end:green
 ```
 
 </TabItem>
 </Tabs>
 
-Each example above contains some **variable definitions** of the `BASE` and `HEIGHT` of the triangle, a **function** called `area` that represents a reusable block of code, and a print statement that outputs the calculation so we can see it.
+Each example above contains some <HighlightReference color="red">**variable definitions** of the `BASE` and `HEIGHT`</HighlightReference> of the triangle, <HighlightReference color="blue">a **function** called `area` that represents a reusable block of code</HighlightReference>, and <HighlightReference color="green">two lines that compute the answer using the function and prints the result</HighlightReference> so we can see it.

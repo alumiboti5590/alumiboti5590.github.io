@@ -1,0 +1,28 @@
+.code-block-highlight {
+    display: block;
+    margin: 0 calc(-1 * var(--ifm-pre-padding));
+    padding: 0 var(--ifm-pre-padding);
+    border-left-width: 3px;
+    border-left-style: solid;
+}
+
+.code-highlight-reference {
+    padding: 2px 0px 2px 3px;
+    border-left-width: 2px;
+    border-left-style: solid;
+}
+
+.code-highlight-green {
+    background-color: #0dff0012;
+    border-left-color: #00ff2680;
+}
+
+.code-highlight-red {
+    background-color: #ff000012;
+    border-left-color: #ff000080;
+}
+
+.code-highlight-blue {
+    background-color: #908ded20;
+    border-left-color: #091bbd80;
+}
