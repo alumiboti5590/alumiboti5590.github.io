@@ -30,7 +30,7 @@ export const features = [
     title: "Apply",
     description: (
       <>
-        Students will have the opprotunity to show off what they've learned and
+        Students will have the opportunity to show off what they've learned and
         applied at regional competitions, featuring other schools &amp; teams of
         their peers. Students involved with FIRST find new opportunities,{" "}
         <a href="https://www.firstinspires.org/community/scholarships/scholarships-faq">
